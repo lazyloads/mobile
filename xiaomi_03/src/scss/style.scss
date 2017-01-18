@@ -1,0 +1,332 @@
+/**
+ *
+ * @authors chenfuxin (chenfuxin@99cj.com.cn)
+ * @date    2016-11-02 09:13:31
+ */
+
+@import '_modules/_mobile_normalize.scss';
+@import '_modules/_flexslider.scss';
+//Your style Here
+html,
+body {
+    height: 100%;
+    font-size: .2rem;
+}
+
+body {
+    font-family: "Microsoft Yahei";
+}
+
+h1,
+h2,
+h3,
+ul,
+li,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+@mixin transition($arr) {
+    -webkit-transition: $arr;
+    -moz-transition: $arr;
+    -ms-transition: $arr;
+    -o-transition: $arr;
+    transition: $arr;
+}
+
+.viewport {
+    width: 100%;
+    max-width: 7.2rem;
+    margin: 0 auto;
+    .lazy {
+        width: 100%;
+    }
+}
+
+.section-header {
+    .slider {
+        height: 11.56rem;
+        background: #fff;
+        position: relative;
+        overflow: hidden;
+    }
+    .part {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        opacity: 0;
+        @include transition(all 1s ease-out);
+    }
+    .active {
+        opacity: 1;
+    }
+}
+
+.section-nav {
+    height: .9rem;
+    .nav {
+        width: 100%;
+        height: .9rem;
+        display: box;
+        display: -webkit-box;
+        box-align: center;
+        -webkit-box-align: center;
+        box-pack: center;
+        -webkit-box-pack: center;
+        &.fixed {
+            width: 100%;
+            height: .9rem;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: none;
+        }
+    }
+    .items {
+        display: block;
+        width: 100%;
+        height: .9rem;
+        line-height: .9rem;
+        font-size: .3rem;
+        text-align: center;
+        color: #473126;
+        background: #f1ebe4;
+        border: 1px solid #cacaca;
+        margin-left: -1px;
+        box-sizing: border-box;
+        box-flex: 1;
+        -webkit-box-flex: 1;
+    }
+    .active {
+        color: #fff;
+        background: #b68f88;
+    }
+    .items-a {
+        border-top-color: #78c651;
+    }
+    .items-b {
+        border-top-color: #0094f2;
+    }
+    .items-c {
+        border-top-color: #f23836;
+    }
+    .items-d {
+        border-top-color: #ffad2f;
+    }
+}
+
+.section-wrap1 {
+    .title-img {
+        .lazy {
+            height: 9.68rem;
+        }
+    }
+}
+
+.section-wrap2 {
+    .title-img {
+        .lazy {
+            height: 10.8rem;
+        }
+    }
+}
+
+.section-wrap3 {
+    .title-img {
+        .lazy {
+            height: 8.6rem;
+        }
+    }
+}
+
+.section-wrap4 {
+    .title-img {
+        .lazy {
+            height: 9.2rem;
+        }
+    }
+}
+
+.section-wrap5 {
+    .title-img {
+        .lazy {
+            height: 2.98rem;
+        }
+    }
+}
+
+.section-wrap7 {
+    .title-img {
+        a {
+            display: block;
+        }
+        .lazy {
+            height: 3.4rem;
+        }
+    }
+    .gift {
+        a {
+            background: #eceeed;
+            padding: .1rem .15rem;
+            display: block;
+        }
+        img {
+            height: 3.01rem;
+        }
+    }
+    .shareBox {
+        position: relative;
+        img {
+            height: 4.4rem;
+        }
+        .link {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding-bottom: .3rem;
+        }
+        .btn {
+            background: #ff4726;
+            color: #fff;
+            font-size: .3rem;
+            margin: 0 auto .1rem;
+            width: 3.85rem;
+            height: .7rem;
+            line-height: .7rem;
+            border-radius: .7rem;
+        }
+        .rules {
+            font-size: .24rem;
+            color: #ff4726;
+        }
+    }
+    .show {
+        img {
+            height: 9.13rem;
+        }
+    }
+    .footer {
+        text-align: center;
+        padding: 0 0 .6rem;
+        background: #eceeed;
+    }
+}
+
+.parts {
+    .showBox {
+        padding: .1rem .15rem;
+    }
+    .list {
+        overflow: hidden;
+    }
+    .items {
+        float: left;
+        width: 3.4rem;
+        height: 5rem;
+        padding: .1rem 0 .4rem;
+        text-align: center;
+        .img {
+            display: block;
+            width: 3rem;
+            height: 3rem;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+        .brief {
+            color: #000;
+        }
+        h1 {
+            font-size: .24rem;
+            font-weight: lighter;
+        }
+        p {
+            font-size: .2rem;
+            line-height: .4rem;
+        }
+        .price {
+            font-size: .3rem;
+            color: #ff4726;
+            del {
+                color: #000;
+                font-size: .22rem;
+                vertical-align: baseline;
+            }
+        }
+        .btn-buy {
+            display: block;
+            background: #ff4726;
+            font-size: .3rem;
+            margin: .1rem auto 0;
+            width: 2.25rem;
+            height: .7rem;
+            line-height: .7rem;
+            text-align: center;
+            color: #fff;
+            border-radius: .7rem;
+        }
+    }
+    .wrap5 {
+        background: #ff4726;
+        padding: 0;
+        padding-bottom: .4rem;
+        position: relative;
+        .lazy-bg {
+            height: 16.19rem;
+        }
+        .list {
+            position: absolute;
+            width: 6.2rem;
+            top: .88rem;
+            left: .5rem;
+        }
+        .items {
+            float: left;
+            width: 3.1rem;
+            height: auto;
+            padding: .1rem 0 .4rem;
+            text-align: center;
+            box-sizing: border-box;
+            border-top: 1px solid #dfdfdf;
+            &:nth-child(odd) {
+                border-left: 1px solid #dfdfdf;
+            }
+            &:nth-child(even) {
+                margin-left: 0;
+            }
+            &:first-child {
+                border: none;
+                width: 6.2rem;
+                padding: 0;
+                overflow: hidden;
+                border-left: none !important;
+                .img {
+                    float: left;
+                }
+                .brief {
+                    margin-left: 3.5rem;
+                    text-align: left;
+                    h1 {
+                        font-size: .3rem;
+                        margin-top: .5rem;
+                    }
+                }
+                .price {
+                    margin-left: 3.5rem;
+                    text-align: left;
+                }
+                .btn-buy {
+                    margin-left: 3.5rem;
+                }
+            }
+        }
+    }
+}

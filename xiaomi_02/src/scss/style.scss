@@ -1,0 +1,111 @@
+/**
+ *
+ * @authors chenfuxin (chenfuxin@99cj.com.cn)
+ * @date    2016-11-02 09:13:31
+ */
+
+@import '_modules/_mobile_normalize.scss';
+@import '_modules/_flexslider.scss';
+//Your style Here
+html,
+body {
+    height: 100%;
+    font-size: .2rem;
+}
+
+body {
+    font-family: "Microsoft Yahei";
+}
+
+.viewport {
+    width: 100%;
+    max-width: 7.2rem;
+    margin: 0 auto;
+    .lazy {
+        width: 100%;
+    }
+}
+
+.section-header {
+    position: relative;
+    .lazy {
+        width: 100%;
+    }
+    .boxBtn {
+        position: absolute;
+        top: 5.9rem;
+        right: 0;
+        left: 0;
+    }
+    .list {
+        overflow: hidden;
+        width: 4.34rem;
+        margin: 0 auto;
+        padding: 0;
+        .item {
+            float: left;
+            margin: 0 .1rem;
+            a {
+                display: block;
+                background: #fedb00;
+                color: #7a1d92;
+                font-size: .24rem;
+                line-height: .56rem;
+                text-align: center;
+                width: 1.94rem;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.section-wrap5,
+.section-wrap7,
+.section-wrap9 {
+    background: #358ef6;
+    padding-bottom: .4rem;
+    ul {
+        overflow: hidden;
+        margin: 0 .1rem;
+        padding: 0;
+    }
+    li {
+        width: 50%;
+        float: left;
+        a {
+            display: block;
+            margin: .1rem;
+        }
+    }
+}
+
+.section-wrap7,
+.section-wrap9 {
+    background: #fdba52;
+    .list2 {
+        li {
+            float: none;
+            width: 100%;
+        }
+    }
+}
+
+.section-wrap9 {
+    background: #a3d85c;
+    li {
+        width: 100%;
+        float: none;
+        margin-bottom: .2rem;
+    }
+    .footer {
+        text-align: center;
+        line-height: 1rem;
+        color: #333;
+    }
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}

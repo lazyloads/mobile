@@ -1,0 +1,385 @@
+{
+  "code": 0,
+  "type": 1,
+  "msg": "获取数据出错",
+  "data": {
+    "one": [{
+      "title": "",
+      "name": "",
+      "brief": "",
+      "market_price": "",
+      "image": "img/phone-mi5s.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "one",
+      "sale_sign": "phone"
+    }, {
+      "title": "",
+      "name": "",
+      "brief": "",
+      "market_price": "",
+      "image": "img/phone-mi5.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "one",
+      "sale_sign": ""
+    }, {
+      "title": "",
+      "name": "",
+      "brief": "",
+      "market_price": "",
+      "image": "img/mitv3s.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "one",
+      "sale_sign": ""
+    }, {
+      "title": "",
+      "name": "",
+      "brief": "",
+      "market_price": "",
+      "image": "img/phone-mi5s-plus.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "one",
+      "sale_sign": "phone"
+    }, {
+      "title": "",
+      "name": "",
+      "brief": "",
+      "market_price": "",
+      "image": "img/phone-note4.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "one",
+      "sale_sign": ""
+    }, {
+      "title": "",
+      "name": "",
+      "brief": "",
+      "market_price": "",
+      "image": "img/phone-note3.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "one",
+      "sale_sign": ""
+    }, {
+      "title": "",
+      "name": "",
+      "brief": "",
+      "market_price": "",
+      "image": "img/phone-redmi3s.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "one",
+      "sale_sign": "phone"
+    }, {
+      "title": "",
+      "name": "",
+      "brief": "",
+      "market_price": "",
+      "image": "img/phone-mimax.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "one",
+      "sale_sign": ""
+    }, {
+      "title": "",
+      "name": "",
+      "brief": "",
+      "market_price": "",
+      "image": "img/phone-redmi-pro.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "one",
+      "sale_sign": ""
+    }],
+    "two": [{
+      "title": "小米5s",
+      "name": "小米5s",
+      "brief": "“暗夜之眼”超感光相机 / 无孔式超声波指纹识别 / 骁龙 821 旗舰处理器 / 全金属一体化机身",
+      "price": "1999元 起",
+      "market_price": "",
+      "image": "img/xiaomi-5s.jpg",
+      "image_url": "img/xianhuo.png",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": "现货"
+    }, {
+      "title": "小米手机5 标准 / 高配 / 尊享",
+      "name": "小米手机5 标准 / 高配 / 尊享",
+      "brief": "骁龙820处理器 / 4轴防抖相机 / 新增支持双开微信，能刷公交卡、银行卡",
+      "price": "1599元 起",
+      "market_price": "",
+      "image": "img/xiaomi-5.jpg",
+      "image_url": "img/tejia.png",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": "特价"
+    }, {
+      "title": "小米5s Plus",
+      "name": "小米5s Plus",
+      "brief": "大屏双摄像头 / 骁龙 821 旗舰处理器 / 轻薄金属机身",
+      "price": "2299元 起",
+      "market_price": "",
+      "image": "img/xiaomi-5s-plus.jpg",
+      "image_url": "img/xinpin.png",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": "新品"
+    }, {
+      "title": "小米Max全网通",
+      "name": "小米Max全网通",
+      "brief": "大屏黄金尺寸 / 4850mAh 大电量 / 指纹识别 / 2.5D玻璃",
+      "price": "1299元 起",
+      "market_price": "",
+      "image": "img/xiaomi-mimax.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": ""
+    }, {
+      "title": "红米Pro",
+      "name": "红米Pro",
+      "brief": "硬件级实时背景虚化 / Helio X20 十核旗舰处理 / 5.5” OLED 超鲜艳屏幕 / 拉丝全金属机身",
+      "price": "1499元 起",
+      "market_price": "",
+      "image": "img/hongmi-pro.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": ""
+    }, {
+      "title": "红米手机3S",
+      "name": "红米手机3S",
+      "brief": "指纹识别 / 全网通双卡双待 / 金属机身 / 4100mAh大电池",
+      "price": "699元 起",
+      "market_price": "",
+      "image": "img/hongmi-3s.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": ""
+    }, {
+      "title": "红米Note 3",
+      "name": "红米Note 3",
+      "brief": "金属机身 / 指纹识别 / 4050mAh大电池 / 5.5英寸全高清屏",
+      "price": "799元 起",
+      "market_price": "",
+      "image": "img/hongmi-note3.jpg",
+      "image_url": "img/jiangjia.png",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": "直降"
+    }, {
+      "title": "红米Note 4",
+      "name": "红米Note 4",
+      "brief": "Helio X20 十核旗舰处理器 / 全金属一体化机身 / 4100mAh 大电量",
+      "price": "899元 起",
+      "market_price": "",
+      "image": "img/hongmi-note4.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": ""
+    }, {
+      "title": "小米笔记本Air",
+      "name": "小米笔记本Air",
+      "brief": "轻薄全金属机身 / 11.5 小时超长续航，支持1C快充 / FHD 全贴合屏幕",
+      "price": "3499元 起",
+      "market_price": "",
+      "image": "img/xiaomi-airbook.jpg",
+      "image_url": "img/baoyou.png",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": "包邮"
+    }, {
+      "title": "小米平板2",
+      "name": "小米平板2",
+      "brief": "全金属机身 / 7.9英寸视网膜屏幕 / 800万像素相机 / 6190mAh大电池 / 支持5V/2A快充",
+      "price": "999元 起",
+      "market_price": "",
+      "image": "img/mipad.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": ""
+    }, {
+      "title": "小米电视3S 65英寸 曲面",
+      "name": "小米电视3S 65英寸 曲面",
+      "brief": "原装进口三星超薄真4K曲面屏 / 金属机身薄至5.9mm / 最美的小米电视",
+      "price": "8999元",
+      "market_price": "",
+      "image": "img/mitv65.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": ""
+    }, {
+      "title": "小米手环2",
+      "name": "小米手环2",
+      "brief": "OLED显示屏，时间、步数、心率，触手可及 / 全新腕带设计，升级计步算法 / 精准心率监测，科学运动自主掌握",
+      "price": "149元",
+      "market_price": "",
+      "image": "img/xiaomi-shouhuan.jpg",
+      "image_url": "img/baoyou.png",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": "包邮"
+    }, {
+      "title": "小米路由器3",
+      "name": "小米路由器3",
+      "brief": "全新四天线设计 / 128M超大Flash / 802.11ac 快3倍 / 更安全更稳定 / 手机远程控制",
+      "price": "149元",
+      "market_price": "",
+      "image": "img/xiaomi-router3.jpg",
+      "image_url": "img/baoyou.png",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": "包邮"
+    }, {
+      "title": "九号平衡车",
+      "name": "九号平衡车",
+      "brief": "22公里超长续航 / 轻、小、便携 / 重心驱动 / 15重安全保障",
+      "price": "1999元",
+      "market_price": "",
+      "image": "img/xiaomi-pinghengche.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": ""
+    }, {
+      "title": "米兔智能故事机",
+      "name": "米兔智能故事机",
+      "brief": "海量优质内容，讲故事更专业 / 微信远程互动 / 智能语音交互 / 材质安全耐用",
+      "price": "199元",
+      "market_price": "",
+      "image": "img/xiaomi-gushiji.jpg",
+      "image_url": "img/xinpin.png",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": "新品"
+    }, {
+      "title": "小米电视3S 43英寸",
+      "name": "小米电视3S 43英寸",
+      "brief": "LG、友达 全高清液晶屏 / 金属机身薄至10.9mm / 内容丰富 / 支持壁挂",
+      "price": "1799元",
+      "market_price": "",
+      "image": "img/mitv43.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": ""
+    }, {
+      "title": "小米电视3S 48英寸",
+      "name": "小米电视3S 48英寸",
+      "brief": "金属机身薄至9.9mm / 原装三星液晶屏 / 四核1.45GHz CPU / 杜比和dts音频双解码 / 支持壁挂",
+      "price": "1999元",
+      "market_price": "",
+      "image": "img/mitv48.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": ""
+    }, {
+      "title": "米家压力IH电饭煲",
+      "name": "米家压力IH电饭煲",
+      "brief": "智能定时烹饪 / 压力 IH 加热 / 3L 容量",
+      "price": "999元",
+      "market_price": "",
+      "image": "img/dianfanbao.jpg",
+      "image_url": "img/baoyou.png",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": "包邮"
+    }, {
+      "title": "小米盒子3 增强版",
+      "name": "小米盒子3 增强版",
+      "brief": "全新升级64位 4K网络机顶盒 / 2GB内存 + 8GB容量 / 标配小米蓝牙语音体感遥控器",
+      "price": "399元",
+      "market_price": "",
+      "image": "img/hezi3s.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": ""
+    }, {
+      "title": "米家扫地机器人",
+      "name": "米家扫地机器人",
+      "brief": "扫得干净扫得快 / 远程智能控制",
+      "price": "1699元",
+      "market_price": "",
+      "image": "img/saodijqr.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": ""
+    }, {
+      "title": "小米插线板",
+      "name": "小米插线板",
+      "brief": "3个USB充电口 / 支持2A快充 / 3重安全保护 / 隐藏式提示灯 / 超薄小插头 / 迷你设计，仅1个铅笔盒大小",
+      "price": "49元",
+      "market_price": "",
+      "image": "img/chaxianban.jpg",
+      "image_url": "img/baoyou2.png",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": "两件包邮"
+    }, {
+      "title": "米兔定位电话",
+      "name": "米兔定位电话",
+      "brief": "高清双向通话 / 五重精准定位 / 十天超长待机",
+      "price": "169元",
+      "market_price": "",
+      "image": "img/dingwei.png",
+      "image_url": "img/xinpin.png",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": "新品"
+    }, {
+      "title": "小米极简都市双肩包",
+      "name": "小米极简都市双肩包",
+      "brief": "4重存储空间，可携带14寸电脑 / 填充EPE珍珠棉，减少双肩背部压力",
+      "price": "149元",
+      "market_price": "",
+      "image": "img/beibao.jpg",
+      "image_url": "",
+      "extend_title": "",
+      "sort": "two",
+      "sale_sign": ""
+    }],
+    "three": [{
+      "title": "",
+      "name": "",
+      "brief": "",
+      "price": "",
+      "market_price": "",
+      "image": "img/xm-card1.jpg",
+      "image_url": "https://www.baidu.com",
+      "extend_title": "",
+      "sort": "three",
+      "sale_sign": ""
+    }, {
+      "title": "",
+      "name": "",
+      "brief": "",
+      "price": "",
+      "market_price": "",
+      "image": "img/xm-card2.jpg",
+      "image_url": "https://www.sina.com",
+      "extend_title": "",
+      "sort": "three",
+      "sale_sign": ""
+    }],
+    "slider": [{
+    	"image": "img/xm-slider-1.jpg",
+    	"image_url": ""
+    }, {
+    	"image": "img/xm-slider-2.jpg",
+    	"image_url": ""
+    }, {
+    	"image": "img/xm-slider-3.jpg",
+    	"image_url": ""
+    }]
+  }
+}
